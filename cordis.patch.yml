@@ -1,0 +1,12 @@
+# dsh-lazy-ladder bundle layer.
+#
+# 一行，配置全用默认值也行。参数都写在这儿是为了以后能在这儿改，不用动代码。
+- insert:
+    - id: lazy-ladder
+      name: 'dsh-lazy-ladder'
+      config:
+        enabled: true
+        # 同一会话最多念几次。念多了就成了噪音，两回够提醒一次习惯。
+        maxAlerts: 2
+        logFile: 'D:/dsh-data/ops/lazy-ladder.log'
+        ladder: '偷懒梯（先用最便宜的，不行再升级）：0 有没有现成的——已装的插件/已有的脚本/一条命令/一次搜索；1 已经在跑的服务直接调；2 一条命令能完事就别起文件；3 才写代码，写完先跑最小验证。别一上来就新建、派子进程、装东西。'

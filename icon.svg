@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Lazy ladder">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#1f6feb" opacity="0.12"/>
+  <g stroke="#1f6feb" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M20 14v36"/>
+    <path d="M44 14v36"/>
+    <path d="M20 24h24"/>
+    <path d="M20 36h24"/>
+    <path d="M20 48h24"/>
+  </g>
+  <circle cx="44" cy="14" r="5" fill="#1f6feb"/>
+</svg>
