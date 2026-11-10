@@ -1,6 +1,6 @@
 {
   "name": "dsh-lazy-ladder",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "先试最便宜的那一档：把「现成 > 已有服务 > 一条命令 > 新写」写成提示词里的梯子，并在没查就动手时补一句提醒。",
   "type": "module",
   "main": "lib/index.js",
@@ -15,7 +15,8 @@
     "cordis.patch.yml",
     "locale/*.json",
     "icon.svg",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "dsh": {
     "bundle": {
